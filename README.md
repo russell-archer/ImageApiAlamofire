@@ -22,7 +22,7 @@ Select **File > Swift Packages > Add Package Dependency...**:
 
 ![](./readme-assets/image01.jpg)
 
-If you only know the URL of the package repository (e.g. on GitHub) then use that:
+If you know the URL of the package repository (e.g. on GitHub) then use that:
 
 ![](./readme-assets/image02.jpg)
 
