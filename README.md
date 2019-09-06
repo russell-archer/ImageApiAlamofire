@@ -159,15 +159,17 @@ Open it as source code and add the following:
 
 ``` XML
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>PixabayUrl</key>
-    <string>https://pixabay.com/api/?key=</string>
-    <key>PixabayApiKey</key>
-    <string>your-api-key-goes-here</string>
-    <key>PixabayImageType</key>
-    <string>image_type=photo</string>
+    <key>url</key>
+    <string>https://pixabay.com/api/</string>
+    <key>key</key>
+    <string>your-key</string>
+    <key>image_type</key>
+    <string>photo</string>
+    <key>per_page</key>
+    <string>10</string>
 </dict>
 </plist>
 ```
