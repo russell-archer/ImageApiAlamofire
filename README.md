@@ -323,7 +323,8 @@ class PixabayHelper: ObservableObject {
         pixabayResultPerPage = plistHelper.readProperty(key: "per_page")!
     }
     
-    public func loadImages(searchFor: String, completion: @escaping (_ images: [PixabayImage]?) -> Void) {
+    public func loadImages( searchFor: String, 
+                            completion: @escaping (_ images: [PixabayImage]?) -> Void) {
         if searchFor == currentSearchText { return }
         currentSearchText = searchFor
         
