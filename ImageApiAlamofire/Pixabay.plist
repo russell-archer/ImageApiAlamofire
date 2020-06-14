@@ -2,13 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>url</key>
-    <string>https://pixabay.com/api/</string>
-    <key>key</key>
-    <string>your-key</string>
-    <key>image_type</key>
-    <string>photo</string>
-    <key>per_page</key>
-    <string>10</string>
+	<key>url</key>
+	<string>https://pixabay.com/api/</string>
+	<key>key</key>
+	<string>4439321-f0ec5e18101d07750e879534f</string>
+	<key>image_type</key>
+	<string>photo</string>
+	<key>per_page</key>
+	<string>10</string>
 </dict>
 </plist>
